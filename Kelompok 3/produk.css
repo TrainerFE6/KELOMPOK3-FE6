@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root {
+  --primary2: hsl(297, 25%, 33%);
+  --primary: #ffaf45;
+  --primary3:#FB6D48;
+  --white: rgb(255, 254, 217);
+  --font:"Inter", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.navbar {
+  font-family: var(--font);
+  padding-left: 2rem;
+  padding-right: 3rem;
+  background-color: #673f69;
+}
+.navbar-nav {
+  text-decoration: none;
+  line-height: 2.3;
+  margin: 1px;
+}
+.navbar-nav a {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar .navbar-brand {
+  color: var(--primary);
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--primary3);
+  transform: translateY(-1px);
+  animation-duration: 3ms;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+/*Produk*/
+.card-img-top {
+  border-radius: 50px;
+  padding: 15px;
+}
+.card{
+  border-radius: 50px;
+  font-family: var(--font);
+  background: #673F69;
+  text-align: center;
+  color: #ffaf45;
+  font-size: 18px;
+}
+.card-body {
+  padding: 25px;
+  margin-top: -15px;
+}
+#category{
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-family: var(--font);
+  color: #673F69;
+  text-align: center;
+  font-size: 40px;
+}
+#menu{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: var(--font);
+  color: #673F69;
+  font-size: 30px;
+}
+.about #judul {
+  text-align: center;
+  color: yellow;
+  font-family: var(--font);
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 130px;
+  background-image: url(katalog/catalog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: -12px;
+}
+.about #judul h2{
+  padding-top: 20px;
+  font-size: 40px;
+}
+.about #judul p{
+  padding-top: 10px;
+  font-size: 20px;
+}
+/* .box{
+  position: absolute;
+  top: 35%;
+  left: 9%;
+  padding: 20px;
+  color: #ffaf45;
+  font-size: 18px; 
+} */
+/* #judul{
+  font-family: var(--font);
+  font-weight: bold;
+  font-size: 30px;
+} */
+/* #ket{
+  font-family: var(--font);
+  margin-top: 25px;
+  font-size: 24px;
+} */
+
+
+/* footer */
+
+footer {
+  
+  background-color: var(--primary2);
+  text-align: center;
+}
+
+footer .social {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer .social a {
+  color: var(--primary);
+  margin: 1rem;
+  text-decoration: none;
+  font-family: var(--font);
+}
+
+footer .social a:hover,
+footer .links a:hover {
+  color: white;
+}
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  font-family: var(--font);
+  color:var(--primary);
+  padding: 40px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+footer .credit {
+  padding-top: 7px;
+  font-family: var(--font);
+  font-size: 1rem;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+footer .credit p {
+  color: var(--primary);
+  font-weight: 700;
+}
+

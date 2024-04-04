@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="contact_us.js" defer></script>
+  </head>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="" width="140" height="60" />
+      </a>
+      <a class="navbar-brand" href="#"><span>Ririn</span> Snack</a>
+      
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="produk.html">Catalog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <h2><span>CONTACT</span> US</h2>
+      <p>
+        Jika anda tertarik dengan layanan katering kami, anda bisa mengirimkan pesan kepada kami dengan mengisi formulir dibawah ini
+      </p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.490624128079!2d-122.08433818459611!3d37.422424827408514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809a3e6a9b85%3A0xf77d3e7787e93880!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1582136298714!5m2!1sen!2sus"
+              width="100%"
+              height="585"
+              frameborder=""
+              style="border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe> -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.843299743555!2d110.68830217501993!3d-7.8064080775009135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a4838dc5d420b%3A0x555baca789db6e04!2sKlaten%2C%20Nuja%2C%20Ngerangan%2C%20Kec.%20Bayat%2C%20Kabupaten%20Klaten%2C%20Jawa%20Tengah%2057462!5e0!3m2!1sid!2sid!4v1712198328918!5m2!1sid!2sid" 
+            width="100%" 
+            height="585" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <div class="col-md-6">
+            <div class="contact-form">
+              
+              <form>
+                <div class="mb-3">
+                  
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #FFAF45;"><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24"><path fill="black" d="M12 12q-1.65 0-2.825-1.175T8 8q0-1.65 1.175-2.825T12 4q1.65 0 2.825 1.175T16 8q0 1.65-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z"/></svg></span>
+                    <input type="text" class="form-control form-control-lg" id="nama" placeholder="Nama">
+                  </div>
+                </div>
+                <div class="mb-3">
+                  
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #FFAF45;"><i class="bi bi-envelope"><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24"><path fill="black" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7l8-5V6l-8 5l-8-5v2z"/></svg></i></span>
+                    <input type="email" class="form-control form-control-lg" id="email" placeholder="Email">
+                  </div>
+                </div>
+                <div class="mb-3">
+                  
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #FFAF45;"><i class="bi bi-phone"><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24"><path fill="black" d="M21 16.42v3.536a1 1 0 0 1-.93.998c-.437.03-.794.046-1.07.046c-8.837 0-16-7.163-16-16c0-.276.015-.633.046-1.07A1 1 0 0 1 4.044 3H7.58a.5.5 0 0 1 .498.45c.023.23.044.413.064.552A13.901 13.901 0 0 0 9.35 8.003c.095.2.033.439-.147.567l-2.158 1.542a13.047 13.047 0 0 0 6.844 6.844l1.54-2.154a.462.462 0 0 1 .573-.149a13.897 13.897 0 0 0 4 1.205c.139.02.322.041.55.064a.5.5 0 0 1 .449.498"/></svg></i></span>
+                    <input type="tel" class="form-control form-control-lg" id="nomorTelepon" placeholder="Nomor Telepon">
+                  </div>
+                </div>
+                <div class="mb-0">
+                  
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #FFAF45;"><i class="bi bi-phone"><svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24"><path fill="black" fill-rule="evenodd" d="M2.25 5A2.75 2.75 0 0 1 5 2.25h14A2.75 2.75 0 0 1 21.75 5v10A2.75 2.75 0 0 1 19 17.75H7.961c-.38 0-.739.173-.976.47l-2.33 2.913c-.798.996-2.405.433-2.405-.843z" clip-rule="evenodd"/></svg></i></span>
+                    <input type="tel" class="form-control form-control-lg" id="pesan" placeholder="Pesan">
+                  </div>
+                </div>
+                <button id="submit-button" type="submit" class="btn">Kirim Pesan</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="social">
+        <a href="https://wa.me/6285701985620" style="color: #ffaf45"><img src="wa.png" style="width: 20px; height: 20px; margin-right: 5px; margin-top: 5px;">085701985620</a>
+      </div>
+      <div class="links">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="produk.html">CATALOG</a>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by Kelompok 3.|&copy;2024</p>
+      </div>
+    </footer>
+    <!-- foote end-->
+    <script>
+      feather.replace();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).on("click", function (event) {
+        var $clickedOn = $(event.target),
+          $collapsableItems = $(".navbar-collapse"),
+          isToggleButton = $clickedOn.closest(".navbar-toggler").length == 1,
+          isLink = $clickedOn.closest("a").length == 1,
+          isOutsideNavbar =
+            $collapsableItems.hasClass("show") && !isToggleButton && !isLink;
+
+        if (isOutsideNavbar) {
+          $collapsableItems.collapse("hide");
+        }
+      });
+    </script>
+  </body>
+</html>

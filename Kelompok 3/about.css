@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root {
+  --white: rgb(255, 254, 217);
+  --primary: #FFAF45;
+  --color1: #673f69;
+  --color2:#FB6D48;
+  --font:"Inter", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  font-family: var(--font);
+  padding-left: 2rem;
+  padding-right: 3rem;
+  background-color: #673f69;
+}
+.navbar-nav {
+  text-decoration: none;
+  line-height: 2.3;
+  margin: 1px;
+}
+.navbar-nav a {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar .navbar-brand {
+  color: var(--primary);
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--color2);
+  transform: translateY(-1px);
+  animation-duration: 3ms;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+.about1 .t-a1 {
+  color: var(--color1);
+  font-size: 40px;
+  text-align: center;
+  line-height: 100px;
+  font-family: var(--font);
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 120px;
+  background-image: url(image/Knabbereien-Fingerfood-Buffet-Eventservice-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: -12px;
+}
+.about1 .c1 {
+  /* font-family: var(--font); */
+  color: var(--color1);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: regular;
+  background-color: var(--primary);
+  border: none;
+  padding: 80px;
+  text-align: justify;
+  justify-content: center;
+  margin-right: -12px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.about1 .c1 .h1{
+  padding-bottom: 15px;
+}
+.about1 .c1 p span {
+  font-family: var(--font);
+  color: var(--color1);
+  font-weight: bold;
+}
+
+.about1 .row {
+  background-color: var(--color1);
+  border: none;
+  padding-left: 6%;
+  padding: 70px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about1 .row .c2 {
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 500px;
+
+}
+
+.about1 .row .c2 p {
+  font-family: var(--font);
+  font-size: 40px;
+  color: var(--primary);
+  text-align: justify;
+  flex: 1 1 35rem;
+  width: 100%;
+  padding-top: 30px;
+  
+}
+.about1 .row .c2 h4 {
+  font-family: "Inter", sans-serif;
+   font-weight: 400;
+  font-style: bold;
+  font-size: 17px;
+  color: var(--primary);
+  margin-bottom: 50px;
+  width: 100%;
+  padding-top: 25px;
+}
+
+#myDIV {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#myDIV .img2 {
+  padding: 5px;
+  color: white;
+  flex: 1;
+  max-width: 100%;
+  height: 250px;
+  border-radius: 30px;
+}
+
+#myDIV img {
+  padding: 5px;
+  color: white;
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+/*testimoni*/
+.c3 {
+  font-family: var(--font);
+  background-color: var(--primary);
+  border: none;
+  height: 670px;
+  margin-right: -12px;
+}
+.c3 h2 {
+  font-size: 40px;
+  padding-top: 5%;
+  color: var(--color1);
+  text-align: center;
+}
+.wrapper {
+  background-color: var(--color1);
+  position: relative;
+  width: 80vw;
+  max-width: 41em;
+  min-height: 25em;
+  border-radius: 0.6em;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  box-shadow: 0 1.8em 3em rgba(1, 17, 39, 0.15);
+  display: flex;
+  margin-top: -80px;
+}
+.testimonial-container {
+  width: 85%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  padding: 1.8em 1.2em;
+}
+.wrapper button {
+  font-size: 1.8em;
+  height: 2.2em;
+  width: 2.2em;
+  background-color: #fff29a;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  border: none;
+  color: var(--color1);
+  box-shadow: 0 0 1em rgba(1, 17, 39, 0.25);
+  cursor: pointer;
+  border-radius: 50%;
+}
+button#next {
+  right: -1.1em;
+}
+button#prev {
+  left: -1.1em;
+}
+.testimonial-container p {
+  color: var(--primary);
+  text-align: center;
+  font-size: 0.9em;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+  padding-bottom: 15px;
+}
+
+.testimonial-container h3 {
+  color: var(--primary);
+  font-size: 1.3em;
+  text-align: center;
+}
+.testimonial-container h6 {
+  color: var(--primary);
+  font-size: 0.9em;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+  .wrapper {
+    font-size: 14px;
+  }
+}
+/* footer */
+
+footer {
+  
+  background-color: var(--color1);
+  text-align: center;
+}
+
+footer .social {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer .social a {
+  color: var(--primary);
+  margin: 1rem;
+  text-decoration: none;
+  font-family: var(--font);
+  
+  
+}
+
+footer .social a:hover,
+footer .links a:hover {
+  color: white;
+}
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  font-family: var(--font);
+  color:var(--primary);
+  padding: 40px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+footer .credit {
+  padding-top: 7px;
+  font-family: var(--font);
+  font-size: 1rem;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+footer .credit p {
+  color: var(--primary);
+  font-weight: 700;
+}

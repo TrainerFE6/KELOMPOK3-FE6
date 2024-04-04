@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root {
+  --primary: #673F69;
+  --primary2:#FB6D48;
+    --bg: #FFAF45;
+    --font:"Inter", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+/* Navbar */
+.navbar {
+  font-family: var(--font);
+  padding-left: 2rem;
+  padding-right: 3rem;
+  background-color: #673f69;
+}
+.navbar-nav {
+  text-decoration: none;
+  line-height: 2.3;
+  margin: 1px;
+}
+.navbar-nav a {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar .navbar-brand {
+  color: var(--bg);
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--primary2);
+  transform: translateY(-1px);
+  animation-duration: 3ms;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+/* contact */
+
+.contact {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-color: var(--bg);
+}
+.contact h2 {
+
+  font-family: var(--font);
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+  color: var(--primary);
+}
+.contact p {
+  color: var(--primary);
+ text-align: center;
+ font-family: var(--font);
+}
+.contact h2 span {
+  color: var(--primary);
+}
+.contact-form h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  color: #eee;
+}
+
+.container {
+  padding-top: 50px;
+  
+}
+.container iframe{
+  border-radius: 10px;
+}
+.contact-form {
+  background-color: var(--primary);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form form {
+  flex: 1 1 45rem;
+  padding-top: 20px;
+  
+  text-align: center;
+}
+.contact-form h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+.contact-form form .input-group span{
+  border-radius: 0;
+}
+.contact-form form .input-group input{
+  padding: 25px;
+  border-radius: 0;
+  font-family: var(--font);
+  
+}
+.contact-form form .btn {
+  margin-top: 3rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  color: var(--primary);
+  background-color: var(--bg);
+  cursor: pointer;
+  font-family: var(--font);
+  
+}
+/* footer */
+
+footer {
+  
+  background-color: var(--primary);
+  text-align: center;
+}
+
+footer .social {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer .social a {
+  color: var(--bg);
+  margin: 1rem;
+  text-decoration: none;
+  font-family: var(--font);
+  
+  
+}
+
+footer .social a:hover,
+footer .links a:hover {
+  color: white;
+}
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  font-family: var(--font);
+  color:var(--bg);
+  padding: 40px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+footer .credit {
+  padding-top: 7px;
+  font-family: var(--font);
+  font-size: 1rem;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+footer .credit p {
+  color: var(--bg);
+  font-weight: 700;
+}

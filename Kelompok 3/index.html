@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="home.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+  </head>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="" width="140" height="60" />
+      </a>
+      <a class="navbar-brand" href="#"><span class="text-primary"></span>Ririn Snack</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="produk.html">Catalog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- hero saction -->
+    <section id="Home" class="hero">
+      <main class="content">
+        <h1>Selamat Datang di Website</h1>
+        <h1>Ririn <span>Snack</span></h1>
+        <a class="btn" href="#about">Find Out More</a>
+      </main>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <h2>Tentang Kami</h2>
+      <div class="d-flex flex-column justify-content-center align-items-end">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-img">
+              <img src="img/about.jpg" alt="Tentang Kami" />
+            </div>
+          </div>
+          <div class="col-md-6" style="text-align: left">
+            <div class="content">
+              <h3>Ririn Snack</h3>
+              <p>
+                Berdiri sejak Tahun 2020, telah berpengalaman dalam menyediakan layanan katering yang berkualitas untuk berbagai macam acara. Kami bercita-cita untuk menciptakan pengalaman yang tak terlupakan dengan memadukan cita rasa yang
+                enak dan pelayanan professional.
+              </p>
+              <a href="#">Find More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Best Seller -->
+    <section class="best-seller">
+      <div class="container">
+        <div class="content">
+          <p class="h2">Best Seller Menu Items</p>
+          <p>Kami memiliki menu best seller yaitu Arem-Arem dan nasi box. Untuk merasakan kenikmatan dari produk best seller kami, anda bisa menghubungi kami pada menu contact us.</p>
+        </div>
+        <div class="container py-2">
+          <div class="row row-cols-1 row-cols-md-2 g-2 py-5 justify-content-center">
+            <div class="col">
+              <div class="card">
+                <img src="img/arem.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="h2" style="color: #673f69; text-align: center">Arem-Arem</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img src="img/bdd16c92ddcbfa717a8b4ac594a484c2.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="h2" style="color: #673f69; text-align: center">Nasi Box</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn" href="#about" style="color: #673f69; font-weight: bold;">View More</a>
+        </div>
+      </div>
+    </section>
+    <!-- faqs -->
+    <section class="faqs">
+      <h2><span>Frequently Asked Questions</span></h2>
+      <div class="d-flex flex-column">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-img">
+              <img src="https://img.freepik.com/free-vector/faqs-concept-illustration_114360-5215.jpg" alt="Tentang Kami" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Apakah Saya Membutuhkan Akun Untuk Membuat Pesanan ?
+                </button>
+
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Untuk Membuat pesanan anda tidak perlu membuat akun. cukup sertakan informasi yang diperlukan pada menu contact us</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Bagaimana Cara Pembayarannya ?</button>
+
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Untuk pembayaran bisa secara cash saat pesanan diantar ke lokasi tujuan (jika lokasi masih dalam jangkauan) atau bisa membayar melalui transfer bank atau e-wallet</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Kapan Pesanan Saya Akan Sampai ?</button>
+
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Produk akan dikirimkan sebelum acara dimulai</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">Bagaimana Sistem Pemesanan ?</button>
+
+                <div id="flush-collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Untuk pemesanan dilakukan H-1 sebelum acara dan saat membuat pesanan diharapkan customer harus menyertakan jumlah yang akan dipesan</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">Apa Saja Menu Yang Tersedia ?</button>
+
+                <div id="flush-collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Untuk menu sudah tertera pada menu catalog, customer juga bisa request selain dari menu yang</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- foote -->
+    <footer>
+      <div class="social">
+        <a href="https://wa.me/6285701985620" style="color: #ffaf45"><img src="wa.png" style="width: 20px; height: 20px; margin-right: 5px; margin-top: 5px;">085701985620</a>
+      </div>
+      <div class="links">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="produk.html">CATALOG</a>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <div class="credit" style="color: #ffaf45">
+        <p>Created by Kelompok 3.|&copy;2024</p>
+      </div>
+    </footer>
+    <!-- foote end-->
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      $(document).on("click", function (event) {
+        var $clickedOn = $(event.target),
+          $collapsableItems = $(".navbar-collapse"),
+          isToggleButton = $clickedOn.closest(".navbar-toggler").length == 1,
+          isLink = $clickedOn.closest("a").length == 1,
+          isOutsideNavbar = $collapsableItems.hasClass("show") && !isToggleButton && !isLink;
+
+        if (isOutsideNavbar) {
+          $collapsableItems.collapse("hide");
+        }
+      });
+    </script>
+  </body>
+</html>

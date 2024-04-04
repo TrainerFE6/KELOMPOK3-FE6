@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+:root {
+  --primary: #FFAF45;
+  --primary2:#673F69;
+  --primary3:#FB6D48;
+  --white: rgb(255, 254, 217);
+  --font: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+.navbar {
+  font-family: var(--font);
+  padding-left: 2rem;
+  padding-right: 3rem;
+  background-color: #673f69;
+}
+.navbar-nav {
+  text-decoration: none;
+  line-height: 2.3;
+  margin: 1px;
+}
+.navbar-nav a {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar .navbar-brand {
+  color: #ffaf45;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--primary3);
+  transform: translateY(-1px);
+  animation-duration: 3ms;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+/* hero section */
+.hero {
+  min-height: 120vh;
+  display: flex;
+  align-items: center;
+  background-image: url(img/Drop-Off-Catering-Delivery-Gallery.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(rgba(0, 0, 0, 1) 85%, rgba(4, 4, 4, 0));
+}
+
+.hero .content {
+  padding: 1.4rem 7%;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 150px;
+}
+
+.hero .content h1 {
+  font-family: var(--font);
+  font-size: 4rem;
+  color: yellow;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.hero .content h1 span .about h2 span {
+  color: var(--primary);
+}
+
+.hero .content p {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  line-height: 1.4;
+  font-weight: 100;
+  color: black;
+  mix-blend-mode: difference;
+}
+
+.hero a {
+  background-color: #673f69;
+  font-family: var(--font);
+}
+.hero a:hover {
+  background-color: #673f69;
+}
+/* about section */
+.about {
+  padding: 5rem 7% 5rem;
+  background-color: #ffaf45;
+  color: white;
+ 
+}
+.about h2 {
+   font-family: var(--font);
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  color: #673f69;
+}
+
+.about h3 {
+  font-family: var(--font);
+  color: #673f69;
+  
+ 
+}
+.about p {
+  font-size: 20px;
+  color: #673f69;
+  text-align: justify;
+}
+
+.about .row .about-img img {
+  width: 100%;
+  /* -webkit-mask-image: url(../img/4.svg);
+  -webkit-mask-size: 50%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  height: 50%; */
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  
+}
+
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-weight: 100;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+.about .row .content a{
+  font-family: var(--font);
+  color: var(--primary2) ;
+}
+
+/* Best Seller */
+.best-seller {
+  font-family: var(--font);
+  background-color: #673f69;
+}
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container p {
+  padding-bottom: 10px;
+  color: #ffaf45;
+}
+.content .h2 {
+  font-size: 3rem;
+  font-weight: 1000;
+  padding-bottom: 25px;
+}
+.h1 {
+  text-align: center;
+}
+.best-seller p {
+  
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+.content h3 {
+  font-style: bold;
+}
+.card-img-top {
+  border-radius: 50px;
+  padding: 20px;
+}
+.card {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  background-color: #ffaf45;
+}
+.card-body {
+  padding: 25px;
+  margin-top: -15px;
+}
+
+.btn {
+  
+  background-color: #ffaf45;
+  color: #ffaf45;
+}
+.btn:hover {
+  background-color: #ffaf45;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  border: none;
+}
+
+/* faqs */
+.faqs {
+  font-family: var(--font);
+  padding: 5rem;
+  background-color: #fff;
+  color: white;
+}
+.faqs h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.faqs h2 span,
+h3 span {
+  color: var(--primary);
+}
+
+.faqs .row .about-img img {
+  width: 100%;
+  /* -webkit-mask-image: url(../img/4.svg);
+  -webkit-mask-size: 50%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  height: 50%; */
+}
+
+.faqs .row .accordion button {
+  font-size: 1.3rem;
+}
+.accordion-body {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+/* footer */
+
+footer {
+  
+    background-color: var(--primary2);
+    text-align: center;
+  }
+  
+  footer .social {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  footer .social a {
+    color: var(--bg);
+    margin: 1rem;
+    text-decoration: none;
+    font-family: var(--font);
+    
+    
+  }
+  
+  footer .social a:hover,
+  footer .links a:hover {
+    color: white;
+  }
+  footer .links {
+    margin-bottom: 1.4rem;
+  }
+  
+  footer .links a {
+    font-family: var(--font);
+    color:var(--primary);
+    padding: 40px;
+    text-decoration: none;
+    text-align: center;
+  
+  }
+  
+  footer .credit {
+    padding-top: 7px;
+    font-family: var(--font);
+    font-size: 1rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  footer .credit p {
+    color: var(--bg);
+    font-weight: 700;
+  }
