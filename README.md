@@ -14,6 +14,6 @@ Ririn Snack didirikan pada tahun 2020 dengan visi untuk menghadirkan pengalaman 
 
 ## Desain Figma
 
-Sebelum membuat website Ririn Snack kita telah membuat rancangan desain web yang dapat diihat [di sini](hhttps://www.figma.com/file/rArdnCxz243vuZf37JV5KB/Mini-Project?type=design&node-id=0%3A1&mode=design&t=VzlD10qnHrMGeiFK-1).
+Sebelum membuat website Ririn Snack kita telah membuat rancangan desain web yang dapat diihat [di sini](https://www.figma.com/file/rArdnCxz243vuZf37JV5KB/Mini-Project?type=design&node-id=0%3A1&mode=design&t=VzlD10qnHrMGeiFK-1).
 
 Terima kasih telah mengunjungi Ririn Snack!
